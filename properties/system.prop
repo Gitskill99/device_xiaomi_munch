@@ -72,6 +72,11 @@ persist.radio.is_vonr_enabled_0=true
 persist.radio.is_vonr_enabled_1=true
 persist.vendor.vonr_setting_support=1
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true 
+
 #LTE CA
 persist.sys.radio.force_lte_ca=true
 
