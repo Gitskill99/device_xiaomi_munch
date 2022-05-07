@@ -90,6 +90,9 @@ TARGET_USES_ION := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/fs/config.fs
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
