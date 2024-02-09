@@ -76,6 +76,9 @@ TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT = true
 # Camera - HIDL overrideFormat - Alternative Version
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED = true
 
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+
 # Display
 BOARD_USES_ADRENO := true
 TARGET_SCREEN_DENSITY := 440
