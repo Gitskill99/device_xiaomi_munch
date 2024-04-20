@@ -73,6 +73,8 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 
 # Camera - HIDL overrideFormat
 TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT = true
+# Camera - HIDL overrideFormat - Alternative Version
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED = true
 
 # Display
 BOARD_USES_ADRENO := true
