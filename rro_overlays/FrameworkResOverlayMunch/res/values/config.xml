@@ -880,4 +880,7 @@
          Off by befault, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPU's. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
